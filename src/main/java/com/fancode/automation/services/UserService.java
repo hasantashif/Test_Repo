@@ -28,7 +28,6 @@ public class UserService {
             user.setLatitude(Double.parseDouble(geo.getString("lat")));
             user.setLongitude(Double.parseDouble(geo.getString("lng")));
 
-            // Add users from FanCode city
             if (user.isFromFanCodeCity()) {
                 users.add(user);
             }
