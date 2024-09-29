@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.fancode.automation.UserServiceTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2024-09-29T13:00:58" hostname="hasantashif-testrepo-brfxgtpardk" time="0.828">
+  <properties/>
+  <testcase name="testSpecificUserProperties()" classname="com.fancode.automation.UserServiceTest" time="0.364"/>
+  <testcase name="testEdgeCaseCoordinates()" classname="com.fancode.automation.UserServiceTest" time="0.001"/>
+  <testcase name="testGetUsersFromFanCodeCity()" classname="com.fancode.automation.UserServiceTest" time="0.055"/>
+  <testcase name="testNoUsers()" classname="com.fancode.automation.UserServiceTest" time="0.405"/>
+  <system-out><![CDATA[Total users fetched: 3
+User: Leanne Graham, Lat: -37.3159, Long: 81.1496
+User: Chelsey Dietrich, Lat: -31.8129, Long: 62.5342
+User: Clementina DuBuque, Lat: -38.2386, Long: 57.2232
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
